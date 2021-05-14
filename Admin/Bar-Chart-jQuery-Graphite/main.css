@@ -1,0 +1,24 @@
+code {
+  font-size: 13px;
+}
+
+.container {
+  margin-bottom: 68px;
+}
+
+#example1 {
+  margin-left: 40px;
+}
+
+#example2 {
+  margin: auto;
+  width: 80%;
+}
+
+.display-3 {
+  padding-bottom: 6px;
+  
+}
+.lead {
+  padding: 6px;
+}

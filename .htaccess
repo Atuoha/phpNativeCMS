@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^(home|register|contact)$ $1.php [NC,L]
+
+RewriteRule ^single/(\d+)$ single.php?viewPost=$1 [NC,L] 
+
+RewriteRule ^cat_post/(\d+)$ cat_post.php?catPost=$1 [NC,L]
